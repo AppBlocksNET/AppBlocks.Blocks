@@ -7,7 +7,6 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/AppBlocksNET/AppBlocks.Blocks</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageLicenseFile>D:\repos\AppBlocks.Blocks\LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
