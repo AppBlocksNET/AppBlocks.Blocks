@@ -7,6 +7,10 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/AppBlocksNET/AppBlocks.Blocks</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Version>0.0.1</Version>
+    <Description>The BLOCKS of ALL THE THINGS</Description>
+    <PackageReleaseNotes>init</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
