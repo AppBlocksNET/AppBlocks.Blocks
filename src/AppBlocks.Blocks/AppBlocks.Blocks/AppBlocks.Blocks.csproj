@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageProjectUrl>https://appblocks.net</PackageProjectUrl>
+    <Copyright>AppBlocks</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/AppBlocksNET/AppBlocks.Blocks</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>D:\repos\AppBlocks.Blocks\LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

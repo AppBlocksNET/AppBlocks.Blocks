@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppBlocks.Blocks", "AppBloc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Do", "Do", "{E47B9CD2-6141-4F0E-86F3-50786D81F50F}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\.github\workflows\main.yml = ..\..\.github\workflows\main.yml
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
 EndProject
