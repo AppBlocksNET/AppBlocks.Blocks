@@ -19,9 +19,9 @@ jobs:
         dotnet-version: 5.0.x
     - name: Restore dependencies - ${{github.workflow}}.sln
       run: dotnet restore src/${{github.workflow}}/${{github.workflow}}.sln
-    - name: Build
-      run: dotnet build --no-restore --configuration Release
-    - name: Pack - ${{github.workflow}}/${{github.workflow}}/src/${{github.workflow}}/${{github.workflow}}.sln
+    - name: Build - src/${{github.workflow}}/${{github.workflow}}.sln
+      run: dotnet build --no-restore --configuration Release src/${{github.workflow}}/${{github.workflow}}.sln
+    - name: Pack - src/${{github.workflow}}/${{github.workflow}}.sln
       run: dotnet pack -v normal -c Release --no-restore --include-symbols --include-source src/${{github.workflow}}/${{github.workflow}}.sln
     - name: Publish - src/${{github.workflow}}/${{github.workflow}}/bin/Release/${{github.workflow}}.*.nupkg
       run: dotnet nuget push src/${{github.workflow}}/${{github.workflow}}/bin/Release/${{github.workflow}}.*.nupkg --api-key  ${{ secrets.NUGET_KEY }} --source https://api.nuget.org/v3/index.json
